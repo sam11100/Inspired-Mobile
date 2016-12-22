@@ -1,0 +1,29 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.bg-img img:nth-child(2){display: none;}
+
+
+@media(max-width: 770px){
+
+	.bg-img img:nth-child(1){display: none;}
+	.bg-img img:nth-child(2){display: unset;}
+
+}
+
+#click2 h3{
+
+	color: blue;
+	padding: 2px;
+}
+#click2 h3:hover{
+	color: black;
+	cursor: pointer;
+}
